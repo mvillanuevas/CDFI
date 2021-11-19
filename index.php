@@ -7,7 +7,7 @@ use src\Utils as util;
 
 
 $cert = file_get_contents('resources/cer.cer');
-$key = file_get_contents('resources/key.pem');
+$key = file_get_contents('resources/key.key');
 $rfc = 'LAN7008173R5';
 $fechaInicial = '2018-06-02T00:00:00';
 $fechaFinal = '2018-06-02T12:59:59';
