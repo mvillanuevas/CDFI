@@ -12,8 +12,8 @@ $rfc = 'FES130828MY0';
 $fechaInicial = '2021-10-01T00:00:00';
 $fechaFinal = '2021-10-31T12:59:59';
 $TipoSolicitud = 'CFDI';
-$idSolicitud = '1fb832ff-6a25-4616-8ca8-04478690cc29';
-$idPaquete = '1fb832ff-6a25-4616-8ca8-04478690cc29_01';
+$idSolicitud = '';
+$idPaquete = '';
 $ResponseAuth = loginSAT::soapRequest($cert,$key);
 var_dump($ResponseAuth);
 
